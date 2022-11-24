@@ -34,7 +34,7 @@ const CartItemList = ({
         childKey: id,
         header: (
           <Link href="/product/[id]" as={`/product/${id}/`} passHref>
-            <Item.Header as="a">{name}</Item.Header>
+            <Item.Header as="div">{name}</Item.Header>
           </Link>
         ),
         image: (
